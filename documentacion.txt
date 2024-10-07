@@ -1,0 +1,12 @@
+-------   PROYECTO INMOBILIARIA ---------------------
+
+npm init
+npm i express nodemon
+npm i sequelize
+npm i pg-hstore
+npm install cors
+npm i dotenv -D
+npm install pg
+
+
+

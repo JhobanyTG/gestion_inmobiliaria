@@ -1,0 +1,29 @@
+{
+  "name": "inmobiliaria",
+  "version": "1.0.0",
+  "description": "inmobiliaria",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "migrate": "NODE_ENV=development node -r dotenv/config ./node_modules/.bin/sequelize-cli db:migrate"
+  },
+  "sequelize": {
+    "config": "src/config.js"
+  },
+  "author": "etduard ticona",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "inmobiliaria": "file:",
+    "library": "file:",
+    "nodemon": "^3.1.7",
+    "pg": "^8.11.5",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
